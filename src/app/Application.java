@@ -392,14 +392,17 @@ public class Application {
 			}
 		} while (codiceSearch.equals(""));
 
-		ElementoCatalogo e = ricercaElementoConCodice(allElements, codiceSearch);
-		stampaRisultatoRicercaConCodice(e);
+		ricercaElementoConCodice(allElements, codiceSearch);
 	}
 
-	private static ElementoCatalogo ricercaElementoConCodice(Map<String, ElementoCatalogo> allElements,
-			String codiceIsbn) {
+	private static void ricercaElementoConCodice(Map<String, ElementoCatalogo> allElements, String codiceIsbn) {
 		ElementoCatalogo e = allElements.get(codiceIsbn);
-		return e;
+		if (e == null) {
+			logger.info("L'elemento cercato non è presente nel catalogo!");
+		} else {
+			stampaRisultatoRicercaConCodice(e);
+		}
+
 	}
 
 	private static void stampaRisultatoRicercaConCodice(ElementoCatalogo elementoCercatoCodice) {
@@ -421,8 +424,11 @@ public class Application {
 		} while (annoSearch == 0 || annoSearch < 0);
 
 		List<ElementoCatalogo> listByYear = ricercaElementiAnno(allElements, annoSearch);
-		stampaRisultatoRicercaConAnno(listByYear);
-
+		if (!listByYear.isEmpty()) {
+			stampaRisultatoRicercaConAnno(listByYear);
+		} else {
+			logger.info("Non ho trovato elementi per l'anno " + annoSearch);
+		}
 	}
 
 	private static List<ElementoCatalogo> ricercaElementiAnno(Map<String, ElementoCatalogo> allElements,
@@ -453,7 +459,11 @@ public class Application {
 		} while (autore.equals(""));
 
 		List<ElementoCatalogo> listByAutor = ricercaElementiAutore(allElements, autore);
-		stampaRisultatoRicercaConAutore(listByAutor);
+		if (!listByAutor.isEmpty()) {
+			stampaRisultatoRicercaConAutore(listByAutor);
+		} else {
+			logger.info("Non ho trovato elementi per l'autore " + autore);
+		}
 
 	}
 

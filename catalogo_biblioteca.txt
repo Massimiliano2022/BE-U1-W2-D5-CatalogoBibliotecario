@@ -1,0 +1,33 @@
+R-00001@La Rivista Italiana@2022@50@MENSILE#
+B-00001@Una storia semplice@2020@100@Leonardo Sciascia@GIALLI#
+R-00002@National Geographic@2021@120@MENSILE#
+B-00002@1984@1949@328@George Orwell@DISTOPIA#
+R-00003@Wired@2023@80@MENSILE#
+B-00003@Il nome della rosa@1980@536@Umberto Eco@MYSTERY#
+R-00004@Science@2023@64@SETTIMANALE#
+B-00004@Harry Potter e la pietra filosofale@1997@332@J.K. Rowling@FANTASY#
+R-00005@Time@2022@96@MENSILE#
+B-00005@Il signore degli anelli@1954@1178@J.R.R. Tolkien@FANTASY#
+R-00006@Nature@2023@72@SETTIMANALE#
+B-00006@Cime tempestose@1847@342@Emily Brontë@ROMANZI#
+R-00007@The New Yorker@2021@88@SETTIMANALE#
+B-00007@Moby Dick@1851@544@Herman Melville@ROMANZI#
+R-00008@Forbes@2022@68@MENSILE#
+B-00008@Orgoglio e pregiudizio@1813@432@Jane Austen@ROMANZI#
+R-00009@The Economist@2023@76@SETTIMANALE#
+B-00009@Cronache del ghiaccio e del fuoco@1996@896@George R.R. Martin@FANTASY#
+R-00010@National Review@2022@84@SETTIMANALE#
+B-00010@Il giovane Holden@1951@240@J.D. Salinger@ROMANZI#
+R-00011@Vanity Fair@2023@92@MENSILE#
+B-00011@1984@1949@328@George Orwell@DISTOPIA#
+R-00012@New Scientist@2022@76@SETTIMANALE#
+B-00012@La ragazza con l'orecchino di perla@1999@320@Tracy Chevalier@ROMANZI#
+R-00013@Forbes@2019@20@SETTIMANALE#
+B-00013@Il codice Da Vinci@2003@592@Dan Brown@ROMANZI#
+R-00014@Popular Science@2022@64@MENSILE#
+B-00014@1984@1949@328@George Orwell@DISTOPIA#
+R-00015@People@2023@88@SETTIMANALE#
+B-00015@Il vecchio e il mare@1952@128@Ernest Hemingway@CLASSICI#
+R-00016@The Guardian@2022@80@SETTIMANALE#
+B-00016@To Kill a Mockingbird@1960@281@Harper Lee@CLASSICI#
+R-00017@Cosmopolitan@2023@96@MENSILE#
